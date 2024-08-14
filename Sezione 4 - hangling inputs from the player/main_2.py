@@ -41,7 +41,7 @@ while gameloop:
     # pygame.BUTTON_LEFT is 1, pygame.BUTTON_MIDDLE is 2, pygame.BUTTON_RIGHT is 3
     if mouse[pygame.BUTTON_LEFT - 1]: # -1 because pygame.BUTTON_LEFT is 1, but in the tuple is 0 position
         myRect.x -= speed
-    elif mouse[1]:
+    elif mouse[pygame.BUTTON_RIGHT -1]: # elif mouse[2] is also correct
         myRect.x += speed
     print(mouse)
     print(pygame.BUTTON_LEFT, pygame.BUTTON_MIDDLE, pygame.BUTTON_RIGHT)
