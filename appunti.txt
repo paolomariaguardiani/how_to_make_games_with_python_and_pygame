@@ -1,0 +1,19 @@
+Utility for pygame.Rect()
+
+myRect.center
+myRect.size
+
+myRect.topleft
+myRect.topright
+myRect.bottomleft
+myRect.bottomright
+
+myRect.left
+myRect.right
+myRect.topleftmyRect.bottomleft
+
+myRect.x, myRect.y
+myRect.w, myRect.h
+myRect.width, myRect.height
+
+myRect.normalize() -> corrects negative values
