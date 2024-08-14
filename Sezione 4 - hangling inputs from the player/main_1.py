@@ -27,6 +27,7 @@ while gameloop:
 
             """
             # First approach
+            # I checks when the user pressed a key down or a key up
             # Since the player can't go up and down simultaneously we use if - elif statements
             if event.key == pygame.K_w:
                 myRect.y -= speed
@@ -40,6 +41,7 @@ while gameloop:
             """
 
     # Second approach (it catches the pressed keys)
+    # It check if the user is holding a key
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_w]:
