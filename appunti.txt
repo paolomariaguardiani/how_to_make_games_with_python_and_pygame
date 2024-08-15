@@ -17,3 +17,10 @@ myRect.w, myRect.h
 myRect.width, myRect.height
 
 myRect.normalize() -> corrects negative values
+
+
+***
+Cercare i sound effects e le musiche con licenza CC0 in opengameart.org 
+Con questo tipo di licenza i don't even need to do attribution
+
+
