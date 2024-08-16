@@ -23,4 +23,22 @@ myRect.normalize() -> corrects negative values
 Cercare i sound effects e le musiche con licenza CC0 in opengameart.org 
 Con questo tipo di licenza i don't even need to do attribution
 
+***
+la Classe Sprite ha diversi metodi:
+pygame.sprite.Sprite.update
+    # method to control sprite behavior
+
+pygame.sprite.Sprite.add
+    # add the sprite to groups
+
+pygame.spriteSprite.remove(group)
+    # remove the sprite from groups
+
+pygame.sprite.Sprite.kill
+    # remove the Sprite from all groups
+
+pygame.sprite.Sprite.alive
+    # does the sprite belong to any groups
+
+pygame.sprite.Sprite.groups# list of Groups that contain this Sprite
 
